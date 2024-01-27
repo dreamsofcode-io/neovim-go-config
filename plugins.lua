@@ -3,6 +3,9 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        "gofumpt",
+        "golines",
+        "goimports-reviser",
         "gopls",
       },
     },
